@@ -1,0 +1,428 @@
+@import url("https://use.typekit.net/gvm7wgv.css");
+
+body {
+    overflow: hidden;
+}
+
+.main-section {
+    background-image: url("images/bg-image.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 110px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.main {
+    height: calc(100vh - 110px);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 103%;
+    background: linear-gradient(173deg, black, #15131385);
+}
+
+.text-holder {
+    position: relative;
+}
+
+.modal-title {
+    font-family: "MrEavesModOT";
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.register input {
+    background-color: black;
+    border: 1px solid white;
+    outline: none;
+    padding: 5px;
+    color: #fff;
+}
+
+.secondModal {
+    background: #191818;
+    height: 420px;
+    overflow: hidden;
+}
+
+.modal-content.border-0.rounded-0 {
+    background: #191818;
+}
+
+.form-control {
+    background: transparent;
+    margin: 0;
+}
+
+.modal-title {
+    color: #fefeff;
+}
+
+.modal-banner {
+    width: 100%;
+    height: 100%;
+}
+
+.form-control p {
+    margin: 0;
+    color: #808089;
+    font-size: 11px;
+    font-family: "futura lite";
+}
+
+.img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-check-label {
+    font-family: "futura lite";
+    font-size: 10px;
+    color: #a7aab7;
+
+}
+
+.form-check-label a {
+    text-decoration: none;
+    font-family: "futura lite";
+    font-size: 10px;
+}
+
+.submit-btn {
+    background: #393939;
+    font-family: "MrEavesModOT";
+    color: white;
+
+}
+
+.login-link {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Sintony', sans-serif;
+    line-height: 14px;
+
+}
+
+.input-field p {
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #808089;
+    font-family: "Futura PT";
+}
+
+.input-field input {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Futura";
+}
+
+@media screen and (min-width:0px) {
+    .logo {
+        font-size: 61px;
+        letter-spacing: 12px;
+        line-height: 28px;
+        color: #8e6e61;
+        font-family: "Mr Eaves Mod OT";
+        text-align: center;
+    }
+
+
+
+    .modal-dialog {
+        max-width: 280px;
+    }
+
+    .text-holder .title {
+        font-family: "MrEavesModOT";
+        font-size: 30px;
+        color: #fafafa;
+    }
+
+    .desc {
+        color: #fff;
+        font-family: "MrEavesModOT";
+        font-size: 16px;
+
+    }
+
+    .register-btn {
+        background-color: #fff;
+        font-family: "Futura Mid";
+
+    }
+
+    .modal {
+        top: 16%;
+        min-width: 280px;
+        height: auto;
+        margin: 0 auto;
+        left: 50%;
+        width: auto;
+        transform: translateX(-50%);
+    }
+}
+
+.bottom-text {
+    max-width: 500px;
+    font-size: 19px;
+    line-height: 21px;
+    color: #fefefe;
+    font-weight: 300;
+    font-family: "Futura PT";
+    padding-top: 30px;
+    position: relative;
+}
+
+.container-fluid {
+    max-width: 1920px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media screen and (min-width:575px) {
+
+    .logo {
+        font-size: 61px;
+        letter-spacing: 12px;
+        line-height: 28px;
+        color: #8e6e61;
+        font-family: "Mr Eaves Mod OT";
+        text-align: center;
+    }
+
+    .text-holder {
+        margin-bottom: 50px;
+        text-align: left;
+    }
+
+   
+
+    .text-holder .title {
+        max-width: 1200px;
+        font-size: 115px;
+        line-height: 97px;
+        color: #fafafa;
+        font-family: "Mr Eaves Mod OT";
+        margin-bottom: 1.5rem;
+    }
+
+    .modal-header .btn-close {
+        margin: -.5rem 0.5rem -0.5rem auto;
+    }
+
+    .desc {
+        max-width: 1200px;
+        font-size: 59px;
+        line-height: 62px;
+        color: #ffffff;
+        font-family: "Mr Eaves Mod OT";
+
+    }
+
+    .firstModal {
+        background: #191818;
+        height: 645px;
+        overflow: hidden;
+    }
+
+    .register-btn {
+        font-size: 26px;
+        letter-spacing: 5px;
+        line-height: 14px;
+        color: #353535;
+        font-weight: 500;
+        font-family: "Futura PT";
+        text-align: center;
+        height: 62px;
+        background-color: #ffffff;
+    }
+
+    .modal-container.row {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .modal {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 450px;
+        height: 610px;
+        overflow: hidden;
+    }
+
+    .modal-dialog {
+        max-width: 875px;
+    }
+
+
+    .modal-title {
+        color: #fefeff;
+    }
+
+    .form-control p {
+        margin: 0;
+        color: #808089;
+        font-size: 11px;
+        font-family: "futura lite";
+    }
+
+    .form-check {
+        font-family: "futura lite";
+        font-size: 14px;
+        color: #a7aab7;
+        margin-top: 30px;
+
+    }
+
+    .form-check-label a {
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "Futura PT";
+    }
+
+    .form-check-label {
+        font-size: 15px;
+        color: #a7aab7;
+        font-family: "Futura PT";
+    }
+
+    .submit-btn {
+        width: 350px;
+        height: 46px;
+        background-color: #393939;
+        font-size: 19px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        color: #ffffff;
+        font-family: "Futura PT";
+
+    }
+
+    .submit-btn:hover {
+        color: white;
+    }
+
+    .login-link {
+        font-size: 12px;
+        line-height: 14px;
+        color: #a7aab7;
+        font-weight: 400;
+        font-family: "Sintony";
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (min-width:1200px) {
+    .text-holder .title {
+        font-size: 115px;
+    }
+
+    .modal {
+        width: 760px;
+    }
+
+    #second-modal {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 600px;
+        height: 450px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .text-holder .title {
+        font-size: 100px;
+    }
+
+    .desc {
+        font-size: 48px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .text-holder .title {
+        font-size: 79px;
+    }
+
+    .desc {
+        font-size: 37px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .text-holder .title {
+        font-size: 56px;
+    }
+
+    .desc {
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .bottom-text {
+        font-size: 15px;
+        line-height: 18px;
+        padding-top: 110px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .text-holder .title {
+        font-size: 24px;
+    }
+
+    .desc {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .bottom-text {
+        font-size: 13px;
+        margin-bottom: -80px;
+
+    }
+
+    .secondModal {
+        top: 10%;
+        background: #191818;
+        height: 357px;
+        overflow: hidden;
+    }
+}

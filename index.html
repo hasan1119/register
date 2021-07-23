@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Landing Pages</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="https://use.typekit.net/gvm7wgv.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo ">LOGO</div>
+    </div>
+    <div class="main-section">
+        <div class="container-fluid main">
+            <div class="text-holder">
+                <h1 class="title">Exclusive Experiences</h1>
+                <p class="desc">Be the first to experience an exclusive benefits program with the Refined
+                    Hospitality collection </p>
+
+                <div class="">
+                    <button type="button" class="register-btn rounded-0 px-4 py-1 btn  text-uppercase "
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        register now
+                    </button>
+                    <div class="modal  fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog mx-auto ">
+                            <div class="modal-content border-0 firstModal rounded-0 ">
+                                <div class="modal-container m-0 p-0 row">
+
+                                    <div class="col d-none d-xl-block modal-banner  p-0">
+                                        <img class="img-fluid" src="./images/form-banner.png" alt="">
+                                    </div>
+
+                                    <div class="col modal-right m-0 p-0">
+                                        <div class="modal-header flex-column">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                            <h1 class="text-uppercase text-center modal-title" id="staticBackdropLabel">
+                                                register
+                                            </h1>
+                                        </div>
+                                        <div class="register p-2">
+                                            <div class="form text-start">
+                                                <form class="form-control border-0" action="">
+
+                                                    <div class="input-field">
+                                                        <p class="pt-2 pt-sm-4">USERNAME</p>
+                                                        <p><input class="w-100" type="text"></p>
+                                                        <p class="pt-2 pt-sm-4">E-MAIL</p>
+                                                        <p><input class="w-100" type="email"></p>
+                                                        <p class="pt-2 pt-sm-4">PASSWORD</p>
+                                                        <p><input class="w-100" type="password"></p>
+                                                    </div>
+
+                                                    <div
+                                                        class="mt-2 mb-2 mt-sm-3 form-check d-flex align-items-center ">
+
+                                                        <label class="form-check-label" for="exampleCheck1">I agree with
+                                                            our
+                                                            <a href="">User Agreement</a> & <a href="">Privacy
+                                                                Policy</a> <input type="checkbox"
+                                                                class="me-3 form-check-input rounded-0 bg-transparent"
+                                                                id="exampleCheck1"></label>
+                                                    </div>
+                                                    <button type="submit" class="w-100   btn submit-btn rounded-0"
+                                                        style="margin-top: 20px;">SUBMIT</button>
+
+                                                </form>
+
+                                                <p class="text-center login-link ">Already registered? <a
+                                                        class="text-decoration-none" style="cursor: pointer;"
+                                                        data-bs-target="#second-modal" data-bs-toggle="modal"
+                                                        data-bs-dismiss="modal">Login now</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal  fade" id="second-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog mx-auto ">
+                    <div class="modal-content border-0 secondModal rounded-0 ">
+                        <div class="modal-container m-0 p-0 row">
+
+                            <div class="col d-none d-lg-block modal-banner  p-0">
+                                <img class="img-fluid" src="./images/form-banner.png" alt="">
+                            </div>
+
+                            <div class="col modal-right m-0 p-0">
+                                <div class="modal-header flex-column">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                    <h1 class="text-uppercase text-center modal-title" id="staticBackdropLabel">
+                                        sign in
+                                    </h1>
+                                </div>
+                                <div class="register p-2">
+                                    <div class="form text-start">
+                                        <form class="form-control border-0" action="">
+                                            <p class="pt-2 pt-sm-4">USERNAME</p>
+                                            <p><input class="w-100" type="text"></p>
+                                            <p class="pt-2 pt-sm-4">PASSWORD</p>
+                                            <p><input class="w-100" type="password"></p>
+                                            <button type="submit"
+                                                class="w-100 p-1 mt-4 btn submit-btn rounded-0">SUBMIT</button>
+
+                                        </form>
+                                        <p class="text-center login-link px-4">Forgot your password? <a
+                                                class="text-decoration-none" href="">Click here to reset</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <p class="bottom-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation
+            </p>
+        </div>
+    </div>
+
+
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
